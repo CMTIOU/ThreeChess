@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/chessbg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chess">
+
+
+    <com.dreamcool.xmz.threechess.SanZhiQiPanel
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
