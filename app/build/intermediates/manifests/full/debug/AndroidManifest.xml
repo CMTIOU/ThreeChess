@@ -20,7 +20,8 @@
         <activity
             android:name="com.dreamcool.xmz.threechess.MainActivity"
             android:icon="@drawable/icon"
-            android:launchMode="singleTop" >
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

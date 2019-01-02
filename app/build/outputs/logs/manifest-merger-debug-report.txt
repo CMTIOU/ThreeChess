@@ -1,11 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] D:\Android\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\1a7c39d767301aa4394076b2856da700\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] D:\Android\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\1c422392a27f47435a808c73ffb4eb2c\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] D:\Android\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\3a7bb29d88a80dd2d8a951c9f23cebda\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] D:\Android\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e01518212fd390758fc7b2509588683b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] D:\Android\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\09199ce0efc3fbb39b69ec7ef308537a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] D:\Android\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\5716c89eabbcb210341d5c0d1032352f\AndroidManifest.xml:17:1-22:12
@@ -16,25 +17,25 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] D:\Android\.gradle\cach
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] D:\Android\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\a3e87bc3c255b845def8a6de81e1f701\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\Android\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\de0965bb03c63fe3b4a01431074cc913\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] D:\Android\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9beb89783a79579fdb2f46a8b1beb7af\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml
-		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml
-		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:5:5-23:19
+ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:5:5-24:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] D:\Android\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\1c422392a27f47435a808c73ffb4eb2c\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] D:\Android\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\1c422392a27f47435a808c73ffb4eb2c\AndroidManifest.xml:9:5-20
 	android:supportsRtl
@@ -50,29 +51,31 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.2] D:\Android\
 	android:theme
 		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:11:9-49
 activity#com.dreamcool.xmz.threechess.MainActivity
-ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:12:9-20:20
+ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:12:9-21:20
+	android:screenOrientation
+		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:13:13-49
 	android:launchMode
-		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:13:13-43
+		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:14:13-43
 	android:icon
-		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:14:13-42
+		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:15:13-42
 	android:name
 		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:19:27-74
 activity#com.dreamcool.xmz.threechess.Chess
-ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:21:9-22:55
+ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:22:9-23:55
 	android:launchMode
-		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:22:13-43
+		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:23:13-43
 	android:name
-		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:21:19-40
+		ADDED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml:22:19-40
 uses-sdk
 INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Android\ThreeChess\app\src\main\AndroidManifest.xml
@@ -81,6 +84,8 @@ MERGED from [com.android.support:appcompat-v7:27.1.1] D:\Android\.gradle\caches\
 MERGED from [com.android.support:appcompat-v7:27.1.1] D:\Android\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\1a7c39d767301aa4394076b2856da700\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] D:\Android\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\1c422392a27f47435a808c73ffb4eb2c\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] D:\Android\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\1c422392a27f47435a808c73ffb4eb2c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] D:\Android\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\3a7bb29d88a80dd2d8a951c9f23cebda\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] D:\Android\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\3a7bb29d88a80dd2d8a951c9f23cebda\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] D:\Android\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e01518212fd390758fc7b2509588683b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] D:\Android\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e01518212fd390758fc7b2509588683b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] D:\Android\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\09199ce0efc3fbb39b69ec7ef308537a\AndroidManifest.xml:20:5-44
