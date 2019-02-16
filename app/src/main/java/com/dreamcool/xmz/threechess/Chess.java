@@ -8,9 +8,10 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 
-public class Chess extends AppCompatActivity {
+public class Chess extends AppCompatActivity implements View.OnClickListener {
 
     long s,e;
+    private Button backBnt;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //获取加载开始时的时间s
@@ -18,6 +19,8 @@ public class Chess extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chess);
 
+        backBnt = findViewById(R.id.back_bnt);
+        backBnt.setOnClickListener(this);
 
         //隐藏标题栏
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -28,5 +31,14 @@ public class Chess extends AppCompatActivity {
         e = System.currentTimeMillis();
         //计算加载界面所用的时间并输出到日志中
         Log.d("时间2：",(e-s)+"");
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.back_bnt:
+                finish();
+                break;
+        }
     }
 }

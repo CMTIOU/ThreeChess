@@ -201,7 +201,7 @@ public class SanZhiQiPanel extends View {
             int x = whitePicesPoint.x;
             int y = whitePicesPoint.y;
 
-            if (x < 1 || x > 5 || y < 1 || y > 5) {
+            if (x < 1 || x > 4 || y < 1 || y > 4) {
                 if (x == 3)
                     left = x * lineHeight - 45;
                 else
@@ -210,10 +210,9 @@ public class SanZhiQiPanel extends View {
                 if (y == 3)
                     top = y * lineHeight - 45;
                 else
-                    top = (whitePicesPoint.y + (1 - picesProportion) / 2)
-                            * lineHeight;
-            } else if ((x >= 1 && x < 1.5) || (x > 4.5 && x < 5.5)
-                    || (y >= 1 && y < 1.5) || (y > 4.5 && y < 5.5)) {
+                    top = (whitePicesPoint.y + (1 - picesProportion) / 2) * lineHeight;
+            } else if ((x >= 1 && x < 1.5) || (x > 3.5 && x < 5.5)
+                    || (y >= 1 && y < 1.5) || (y > 3.5 && y < 5.5)) {
 
                 if (x == 3) {
                     left = x * lineHeight - 45;
@@ -237,28 +236,6 @@ public class SanZhiQiPanel extends View {
                                 * lineHeight + 45;
                 }
 
-            } else {
-                if (x == 3) {
-                    left = x * lineHeight - 45;
-                } else {
-                    if (x > 1.5 && x < 2.5)
-                        left = (whitePicesPoint.x + (1 - picesProportion) / 2)
-                                * lineHeight - 90;
-                    else
-                        left = (whitePicesPoint.x + (1 - picesProportion) / 2)
-                                * lineHeight + 90;
-                }
-
-                if (y == 3)
-                    top = y * lineHeight - 45;
-                else {
-                    if (y > 1.5 && y < 2.5)
-                        top = (whitePicesPoint.y + (1 - picesProportion) / 2)
-                                * lineHeight - 90;
-                    else
-                        top = (whitePicesPoint.y + (1 - picesProportion) / 2)
-                                * lineHeight + 90;
-                }
             }
 
 

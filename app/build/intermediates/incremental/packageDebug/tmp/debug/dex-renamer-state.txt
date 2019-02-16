@@ -1,4 +1,4 @@
-#Sat Nov 17 18:13:28 CST 2018
+#Tue Feb 12 23:39:35 CST 2019
 base.0=E\:\\Android\\ThreeChess\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

@@ -7,11 +7,66 @@
     tools:context=".Chess">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/top"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
     <com.dreamcool.xmz.threechess.SanZhiQiPanel
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_centerInParent="true"
-        android:background="@drawable/bg" />
+        android:layout_below="@+id/top"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg"
+        android:id="@+id/chess_pan"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="0dp"
+        android:layout_margin="15dp"
+        android:id="@+id/back_bnt"
+        android:background="@drawable/back_bg"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chess_pan"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/bnt_deaft"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/bnt_beginn"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bnt_rest"/>
+
+    </LinearLayout>
 
 
 </RelativeLayout>
